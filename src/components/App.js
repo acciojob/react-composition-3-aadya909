@@ -1,13 +1,19 @@
+import React from 'react';
+import Tooltip from './Tooltip';
 
-import React from "react";
-import './../styles/App.css';
-
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div style={{ padding: '50px' }}>
+      <Tooltip text="This is the tooltip text">
+        <h2>Hover over me</h2>
+      </Tooltip>
+
+      <Tooltip text="Another tooltip here!">
+        <p>Hover over me to see another tooltip</p>
+      </Tooltip>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
