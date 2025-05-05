@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/App.css'; // Adjust path to match actual file location
+import '../styles/App.css'; // Adjust this if your CSS is elsewhere
 
 function Tooltip({ text, children }) {
   const [isVisible, setIsVisible] = useState(false);

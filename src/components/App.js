@@ -1,5 +1,5 @@
 import React from 'react';
-import Tooltip from './Tooltip';
+import Tooltip from './components/Tooltip';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
